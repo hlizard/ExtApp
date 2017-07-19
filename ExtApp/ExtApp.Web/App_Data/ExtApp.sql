@@ -41,16 +41,16 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppConfig] ON
 GO
-INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'1', N'Áî®Êà∑ÂàùÂßãÂØÜÁ†Å', N'UserInitPwd', N'123', N'1', N'2', N'1', N'Áî®Êà∑ÁÆ°ÁêÜÈáçÁΩÆÁî®Êà∑ÂØÜÁ†Å„ÄÇ')
+INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'1', N'”√ªß≥ı º√‹¬Î', N'UserInitPwd', N'123', N'1', N'2', N'1', N'”√ªßπ‹¿Ì÷ÿ÷√”√ªß√‹¬Î°£')
 GO
 GO
-INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'2', N'Êï∞ÊçÆÂ∫ìÂêçÁß∞', N'DatabaseName', N'ExtApp', N'1', N'1003', N'1', N'ËøûÊé•Êï∞ÊçÆÂ∫ìÁöÑÂêçÁß∞ÔºåÊï∞ÊçÆÂ∫ìÂ§á‰ªΩËøòÂéü‰ΩøÁî®„ÄÇ')
+INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'2', N' ˝æ›ø‚√˚≥∆', N'DatabaseName', N'ExtApp', N'1', N'1003', N'1', N'¡¨Ω” ˝æ›ø‚µƒ√˚≥∆£¨ ˝æ›ø‚±∏∑›ªπ‘≠ π”√°£')
 GO
 GO
-INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'3', N'Ê°ÜÊû∂Ê†∑Âºè', N'FrameStyle', N'accordion', N'1', N'1004', N'0', N'Ê°ÜÊû∂Ê†∑ÂºèÂ≠óÂÖ∏‰∏≠ÁöÑ‰∏ÄÁßç„ÄÇ')
+INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'3', N'øÚº‹—˘ Ω', N'FrameStyle', N'accordion', N'1', N'1004', N'0', N'øÚº‹—˘ Ω◊÷µ‰÷–µƒ“ª÷÷°£')
 GO
 GO
-INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'4', N'ExtJs‰∏ªÈ¢ò', N'ExtJsTheme', N'classic', N'1', N'1004', N'0', N'ExtJs‰∏ªÈ¢òÂ≠óÂÖ∏‰∏≠ÁöÑÂÖ∂‰∏≠‰∏ÄÁßç„ÄÇ')
+INSERT INTO [dbo].[AppConfig] ([ID], [Name], [ConfigKey], [ConfigValue], [Status], [SectionID], [Sort], [Comment]) VALUES (N'4', N'ExtJs÷˜Ã‚', N'ExtJsTheme', N'classic', N'1', N'1004', N'0', N'ExtJs÷˜Ã‚◊÷µ‰÷–µƒ∆‰÷–“ª÷÷°£')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppConfig] OFF
@@ -80,13 +80,13 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppConfigSection] ON
 GO
-INSERT INTO [dbo].[AppConfigSection] ([ID], [Name], [Status], [SectionID], [Sort], [Comment]) VALUES (N'2', N'Áî®Êà∑ÁÆ°ÁêÜÈÖçÁΩÆ', N'1', null, N'1', null)
+INSERT INTO [dbo].[AppConfigSection] ([ID], [Name], [Status], [SectionID], [Sort], [Comment]) VALUES (N'2', N'”√ªßπ‹¿Ì≈‰÷√', N'1', null, N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppConfigSection] ([ID], [Name], [Status], [SectionID], [Sort], [Comment]) VALUES (N'1003', N'Êï∞ÊçÆÂ∫ìÈÖçÁΩÆ', N'1', null, N'2', null)
+INSERT INTO [dbo].[AppConfigSection] ([ID], [Name], [Status], [SectionID], [Sort], [Comment]) VALUES (N'1003', N' ˝æ›ø‚≈‰÷√', N'1', null, N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppConfigSection] ([ID], [Name], [Status], [SectionID], [Sort], [Comment]) VALUES (N'1004', N'Áî®Êà∑ÁïåÈù¢ÈÖçÁΩÆ', N'1', null, N'0', null)
+INSERT INTO [dbo].[AppConfigSection] ([ID], [Name], [Status], [SectionID], [Sort], [Comment]) VALUES (N'1004', N'”√ªßΩÁ√Ê≈‰÷√', N'1', null, N'0', null)
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppConfigSection] OFF
@@ -149,34 +149,34 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppDept] ON
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3014', null, N'001', N'Ëë£‰∫ã‰ºö', N'1', N'2017-03-17 07:34:24.000', N'1', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3014', null, N'001', N'∂≠ ¬ª·', N'1', N'2017-03-17 07:34:24.000', N'1', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3015', N'3014', N'001001', N'ÊÄªÁªèÁêÜÂäû', N'1', N'2017-03-17 07:40:10.000', N'1', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3015', N'3014', N'001001', N'◊‹æ≠¿Ì∞Ï', N'1', N'2017-03-17 07:40:10.000', N'1', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3017', N'3014', N'001002', N'Á†îÂèëÈÉ®', N'1', N'2017-03-18 07:41:25.000', N'2', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3017', N'3014', N'001002', N'—–∑¢≤ø', N'1', N'2017-03-18 07:41:25.000', N'2', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3018', N'3017', N'001002001', N'È°πÁõÆÈÉ®', N'1', N'2017-03-18 07:43:18.000', N'1', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3018', N'3017', N'001002001', N'œÓƒø≤ø', N'1', N'2017-03-18 07:43:18.000', N'1', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3019', N'3017', N'001002002', N'‰∫ßÂìÅÈÉ®', N'1', N'2017-03-18 07:43:28.000', N'2', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3019', N'3017', N'001002002', N'≤˙∆∑≤ø', N'1', N'2017-03-18 07:43:28.000', N'2', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3020', N'3014', N'001003', N'Ë¥¢Âä°ÈÉ®', N'1', N'2017-03-18 07:43:45.000', N'3', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3020', N'3014', N'001003', N'≤∆ŒÒ≤ø', N'1', N'2017-03-18 07:43:45.000', N'3', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3021', N'3014', N'001004', N'ÁªºÂêàÈÉ®', N'1', N'2017-03-18 07:43:56.000', N'4', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3021', N'3014', N'001004', N'◊€∫œ≤ø', N'1', N'2017-03-18 07:43:56.000', N'4', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3024', N'3020', N'001003001', N'‰ºöËÆ°', N'1', N'2017-03-20 07:54:33.000', N'1', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3024', N'3020', N'001003001', N'ª·º∆', N'1', N'2017-03-20 07:54:33.000', N'1', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3025', N'3020', N'001003002', N'Âá∫Á∫≥', N'1', N'2017-03-20 07:54:49.000', N'2', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3025', N'3020', N'001003002', N'≥ˆƒ…', N'1', N'2017-03-20 07:54:49.000', N'2', null, N'1', N'1', N'22')
 GO
 GO
-INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3026', N'3017', N'001002003', N'ÊµãËØïÈÉ®', N'1', N'2017-03-25 07:30:07.000', N'3', null, N'1', N'1', N'22')
+INSERT INTO [dbo].[AppDept] ([ID], [PID], [Code], [Name], [Status], [AddTime], [Sort], [Comment], [AddUserID], [Type], [TypeID]) VALUES (N'3026', N'3017', N'001002003', N'≤‚ ‘≤ø', N'1', N'2017-03-25 07:30:07.000', N'3', null, N'1', N'1', N'22')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppDept] OFF
@@ -207,49 +207,49 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppDic] ON
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'1', N'LogType', N'24', N'Êó•ÂøóÁ±ªÂûã', N'1', N'1', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'1', N'LogType', N'24', N'»’÷æ¿‡–Õ', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'2', N'LogSource', N'24', N'Êó•ÂøóÊù•Ê∫ê', N'1', N'2', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'2', N'LogSource', N'24', N'»’÷æ¿¥‘¥', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'3', N'LogLevel', N'24', N'Êó•ÂøóÁ≠âÁ∫ß', N'1', N'3', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'3', N'LogLevel', N'24', N'»’÷æµ»º∂', N'1', N'3', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'4', N'Sex', N'24', N'ÊÄßÂà´', N'1', N'4', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'4', N'Sex', N'24', N'–‘±', N'1', N'4', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'5', N'FrameStyle', N'24', N'Ê°ÜÊû∂Ê†∑Âºè', N'1', N'5', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'5', N'FrameStyle', N'24', N'øÚº‹—˘ Ω', N'1', N'5', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'6', N'ExtJsTheme', N'24', N'ExtJs‰∏ªÈ¢ò', N'1', N'6', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'6', N'ExtJsTheme', N'24', N'ExtJs÷˜Ã‚', N'1', N'6', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'7', N'DeptType', N'24', N'ÁªÑÁªáÊú∫ÊûÑÁ±ªÂûã', N'1', N'0', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'7', N'DeptType', N'24', N'◊È÷Øª˙ππ¿‡–Õ', N'1', N'0', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'8', N'DicType', N'24', N'Â≠óÂÖ∏Á±ªÂûã', N'1', N'0', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'8', N'DicType', N'24', N'◊÷µ‰¿‡–Õ', N'1', N'0', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'9', N'UrlType', N'24', N'UrlÁ±ªÂûã', N'1', N'1', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'9', N'UrlType', N'24', N'Url¿‡–Õ', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'10', N'IconType', N'24', N'ÂõæÊ†áÁ±ªÂûã', N'1', N'0', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'10', N'IconType', N'24', N'Õº±Í¿‡–Õ', N'1', N'0', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'11', N'OpenType', N'24', N'ËèúÂçïÊâìÂºÄÊñπÂºè', N'1', N'0', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'11', N'OpenType', N'24', N'≤Àµ•¥Úø™∑Ω Ω', N'1', N'0', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'12', N'MessageType', N'24', N'Ê∂àÊÅØÁ±ªÂûã', N'1', N'0', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'12', N'MessageType', N'24', N'œ˚œ¢¿‡–Õ', N'1', N'0', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'13', N'MessageSendType', N'24', N'Ê∂àÊÅØÂèëÈÄÅÁä∂ÊÄÅ', N'1', N'0', null)
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'13', N'MessageSendType', N'24', N'œ˚œ¢∑¢ÀÕ◊¥Ã¨', N'1', N'0', null)
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'14', N'MessageReceiveType', N'24', N'Ê∂àÊÅØÊé•Êî∂Áä∂ÊÄÅ', N'1', N'0', N'')
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'14', N'MessageReceiveType', N'24', N'œ˚œ¢Ω” ’◊¥Ã¨', N'1', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'15', N'LeaveType', N'25', N'ËØ∑ÂÅáÁ±ªÂûã', N'1', N'0', N'')
+INSERT INTO [dbo].[AppDic] ([ID], [Code], [Type], [Name], [Status], [Sort], [Comment]) VALUES (N'15', N'LeaveType', N'25', N'«ÎºŸ¿‡–Õ', N'1', N'0', N'')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppDic] OFF
@@ -280,148 +280,148 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppDicItem] ON
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'1', N'3', N'Fatel', N'Â¥©Ê∫É', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'1', N'3', N'Fatel', N'±¿¿£', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'2', N'3', N'Error', N'ÈîôËØØ', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'2', N'3', N'Error', N'¥ÌŒÛ', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'3', N'3', N'Warn', N'Ë≠¶Âëä', N'1', N'3', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'3', N'3', N'Warn', N'æØ∏Ê', N'1', N'3', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'4', N'3', N'Info', N'Ê∂àÊÅØ', N'1', N'4', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'4', N'3', N'Info', N'œ˚œ¢', N'1', N'4', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'5', N'3', N'Debug', N'Ë∞ÉËØï', N'1', N'5', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'5', N'3', N'Debug', N'µ˜ ‘', N'1', N'5', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'6', N'1', N'System', N'Á≥ªÁªü‰∫ã‰ª∂', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'6', N'1', N'System', N'œµÕ≥ ¬º˛', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'7', N'1', N'User', N'Áî®Êà∑‰∫ã‰ª∂', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'7', N'1', N'User', N'”√ªß ¬º˛', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'8', N'2', N'WebApp', N'WebÂ∫îÁî®', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'8', N'2', N'WebApp', N'Web”¶”√', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'9', N'2', N'MobileApp', N'ÁßªÂä®Â∫îÁî®', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'9', N'2', N'MobileApp', N'“∆∂Ø”¶”√', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'10', N'2', N'DesktopApp', N'Ê°åÈù¢ÂÆ¢Êà∑Á´Ø', N'1', N'3', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'10', N'2', N'DesktopApp', N'◊¿√ÊøÕªß∂À', N'1', N'3', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'11', N'4', N'Man', N'Áî∑', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'11', N'4', N'Man', N'ƒ–', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'12', N'4', N'Woman', N'Â•≥', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'12', N'4', N'Woman', N'≈Æ', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'13', N'5', N'accordion', N'ÊäòÂè†Èù¢Êùø', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'13', N'5', N'accordion', N'’€µ˛√Ê∞Â', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'14', N'5', N'desktop', N'Ê°åÈù¢Ê†∑Âºè', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'14', N'5', N'desktop', N'◊¿√Ê—˘ Ω', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'16', N'6', N'classic', N'Classic‰∏ªÈ¢ò', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'16', N'6', N'classic', N'Classic÷˜Ã‚', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'17', N'6', N'aria', N'Aria‰∏ªÈ¢ò', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'17', N'6', N'aria', N'Aria÷˜Ã‚', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'18', N'6', N'crisp', N'Crisp‰∏ªÈ¢ò', N'1', N'3', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'18', N'6', N'crisp', N'Crisp÷˜Ã‚', N'1', N'3', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'19', N'6', N'gray', N'Gray‰∏ªÈ¢ò', N'1', N'4', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'19', N'6', N'gray', N'Gray÷˜Ã‚', N'1', N'4', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'20', N'6', N'neptune', N'Neptune‰∏ªÈ¢ò', N'1', N'5', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'20', N'6', N'neptune', N'Neptune÷˜Ã‚', N'1', N'5', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'21', N'6', N'triton', N'Triton‰∏ªÈ¢ò', N'1', N'6', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'21', N'6', N'triton', N'Triton÷˜Ã‚', N'1', N'6', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'22', N'7', N'Organization', N'Êú∫ÊûÑ', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'22', N'7', N'Organization', N'ª˙ππ', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'23', N'7', N'Region', N'Âú∞Âüü', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'23', N'7', N'Region', N'µÿ”Ú', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'24', N'8', N'System', N'Á≥ªÁªü', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'24', N'8', N'System', N'œµÕ≥', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'25', N'8', N'User', N'Áî®Êà∑', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'25', N'8', N'User', N'”√ªß', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'26', N'9', N'ExtJsClass', N'ExtJsÁ±ª', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'26', N'9', N'ExtJsClass', N'ExtJs¿‡', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'27', N'9', N'UrlAddress', N'UrlÂú∞ÂùÄ', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'27', N'9', N'UrlAddress', N'Urlµÿ÷∑', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'28', N'10', N'CSS', N'CSSÊ†∑Âºè', N'1', N'1', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'28', N'10', N'CSS', N'CSS—˘ Ω', N'1', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'29', N'10', N'IconUrl', N'ÂõæÊ†áUrl', N'1', N'2', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'29', N'10', N'IconUrl', N'Õº±ÍUrl', N'1', N'2', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'30', N'11', N'NoIframe', N'ÈùûiframeÊñπÂºè', N'1', N'1', N'ÈÄâÈ°πÂç°‰∏≠ÊâìÂºÄÔºå‰∏ç‰ΩøÁî®iframe„ÄÇ')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'30', N'11', N'NoIframe', N'∑«iframe∑Ω Ω', N'1', N'1', N'—°œÓø®÷–¥Úø™£¨≤ª π”√iframe°£')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'31', N'11', N'Iframe', N'iframeÊñπÂºè', N'1', N'2', N'ÈÄâÈ°πÂç°‰∏≠ÊâìÂºÄÔºå‰ΩøÁî®Iframe„ÄÇ')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'31', N'11', N'Iframe', N'iframe∑Ω Ω', N'1', N'2', N'—°œÓø®÷–¥Úø™£¨ π”√Iframe°£')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'32', N'11', N'Dialog', N'ÂØπËØùÊ°Ü‰∏≠ÊâìÂºÄ', N'1', N'3', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'32', N'11', N'Dialog', N'∂‘ª∞øÚ÷–¥Úø™', N'1', N'3', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'33', N'11', N'Top', N'È°∂Â±ÇÁ™óÂè£ÊâìÂºÄ', N'1', N'4', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'33', N'11', N'Top', N'∂•≤„¥∞ø⁄¥Úø™', N'1', N'4', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'34', N'11', N'Blank', N'Êñ∞Á™óÂè£ÊâìÂºÄ', N'1', N'5', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'34', N'11', N'Blank', N'–¬¥∞ø⁄¥Úø™', N'1', N'5', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'35', N'12', N'SystemMessage', N'Á≥ªÁªüÊ∂àÊÅØ', N'1', N'10', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'35', N'12', N'SystemMessage', N'œµÕ≥œ˚œ¢', N'1', N'10', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'36', N'12', N'UserMessage', N'Áî®Êà∑Ê∂àÊÅØ', N'1', N'20', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'36', N'12', N'UserMessage', N'”√ªßœ˚œ¢', N'1', N'20', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'37', N'13', N'Draft', N'ËçâÁ®ø', N'1', N'10', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'37', N'13', N'Draft', N'≤›∏Â', N'1', N'10', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'38', N'13', N'Send', N'Â∑≤ÂèëÈÄÅ', N'1', N'20', null)
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'38', N'13', N'Send', N'“—∑¢ÀÕ', N'1', N'20', null)
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'39', N'14', N'Unread', N'Êú™ËØª', N'1', N'10', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'39', N'14', N'Unread', N'Œ¥∂¡', N'1', N'10', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'40', N'14', N'Read', N'Â∑≤ËØª', N'1', N'20', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'40', N'14', N'Read', N'“—∂¡', N'1', N'20', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'41', N'14', N'Delete', N'Â∑≤Âà†', N'1', N'30', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'41', N'14', N'Delete', N'“—…æ', N'1', N'30', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'42', N'15', N'PaidLeave', N'Â∏¶Ëñ™‰ºëÂÅá', N'1', N'1', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'42', N'15', N'PaidLeave', N'¥¯–Ω–›ºŸ', N'1', N'1', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'43', N'15', N'VisitLeave', N'Êé¢‰∫≤ÂÅá', N'1', N'2', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'43', N'15', N'VisitLeave', N'ÃΩ«◊ºŸ', N'1', N'2', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'44', N'15', N'FuneralLeave', N'Â©ö‰∏ßÂÅá', N'1', N'3', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'44', N'15', N'FuneralLeave', N'ªÈ…•ºŸ', N'1', N'3', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'45', N'15', N'MaternityLeave', N'‰∫ßÂÅá', N'1', N'4', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'45', N'15', N'MaternityLeave', N'≤˙ºŸ', N'1', N'4', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'46', N'15', N'PaternityLeave', N'Èô™Êä§ÂÅá', N'1', N'5', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'46', N'15', N'PaternityLeave', N'≈„ª§ºŸ', N'1', N'5', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'47', N'15', N'BusinessLeave', N'Âõ†ÂÖ¨Â§ñÂá∫', N'1', N'6', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'47', N'15', N'BusinessLeave', N'“Úπ´Õ‚≥ˆ', N'1', N'6', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'48', N'15', N'SickLeave', N'ÁóÖÂÅá', N'1', N'7', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'48', N'15', N'SickLeave', N'≤°ºŸ', N'1', N'7', N'')
 GO
 GO
-INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'49', N'15', N'CompassionateLeave', N'‰∫ãÂÅá', N'1', N'8', N'')
+INSERT INTO [dbo].[AppDicItem] ([ID], [DicID], [Code], [Name], [Status], [Sort], [Comment]) VALUES (N'49', N'15', N'CompassionateLeave', N' ¬ºŸ', N'1', N'8', N'')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppDicItem] OFF
@@ -486,211 +486,211 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppLog] ON
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'37', N'7', N'8', N'4', N'1', N'2017-04-25 07:32:02.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'37', N'7', N'8', N'4', N'1', N'2017-04-25 07:32:02.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'38', N'7', N'8', N'4', N'1', N'2017-04-25 19:20:39.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'38', N'7', N'8', N'4', N'1', N'2017-04-25 19:20:39.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'39', N'7', N'8', N'4', N'1', N'2017-04-25 20:41:15.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'39', N'7', N'8', N'4', N'1', N'2017-04-25 20:41:15.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'40', N'7', N'8', N'4', N'1', N'2017-04-25 21:16:37.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'40', N'7', N'8', N'4', N'1', N'2017-04-25 21:16:37.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'41', N'7', N'8', N'4', N'1', N'2017-04-26 07:19:02.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'41', N'7', N'8', N'4', N'1', N'2017-04-26 07:19:02.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'42', N'7', N'8', N'4', N'1', N'2017-04-26 11:51:11.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'42', N'7', N'8', N'4', N'1', N'2017-04-26 11:51:11.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'43', N'7', N'8', N'4', N'1', N'2017-04-26 20:14:39.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'43', N'7', N'8', N'4', N'1', N'2017-04-26 20:14:39.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'44', N'7', N'8', N'4', N'1', N'2017-04-27 20:37:00.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'44', N'7', N'8', N'4', N'1', N'2017-04-27 20:37:00.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'45', N'7', N'8', N'4', N'1', N'2017-04-28 21:20:36.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'45', N'7', N'8', N'4', N'1', N'2017-04-28 21:20:36.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'46', N'7', N'8', N'4', N'1', N'2017-04-29 17:41:53.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'46', N'7', N'8', N'4', N'1', N'2017-04-29 17:41:53.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'47', N'7', N'8', N'4', N'1', N'2017-04-29 21:07:26.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'47', N'7', N'8', N'4', N'1', N'2017-04-29 21:07:26.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'48', N'7', N'8', N'4', N'1', N'2017-04-30 08:11:25.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'48', N'7', N'8', N'4', N'1', N'2017-04-30 08:11:25.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'49', N'7', N'8', N'4', N'2', N'2017-04-30 15:32:36.000', N'::1', N'Áî®Êà∑testÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'49', N'7', N'8', N'4', N'2', N'2017-04-30 15:32:36.000', N'::1', N'”√ªßtestµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'50', N'7', N'8', N'4', N'1', N'2017-04-30 15:38:45.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'50', N'7', N'8', N'4', N'1', N'2017-04-30 15:38:45.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'51', N'7', N'8', N'4', N'2', N'2017-04-30 15:41:48.000', N'::1', N'Áî®Êà∑testÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'51', N'7', N'8', N'4', N'2', N'2017-04-30 15:41:48.000', N'::1', N'”√ªßtestµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'52', N'7', N'8', N'4', N'1', N'2017-04-30 16:00:10.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'52', N'7', N'8', N'4', N'1', N'2017-04-30 16:00:10.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'53', N'7', N'8', N'4', N'2', N'2017-04-30 16:01:00.000', N'::1', N'Áî®Êà∑testÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'53', N'7', N'8', N'4', N'2', N'2017-04-30 16:01:00.000', N'::1', N'”√ªßtestµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'54', N'7', N'8', N'4', N'1', N'2017-04-30 16:21:23.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'54', N'7', N'8', N'4', N'1', N'2017-04-30 16:21:23.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'55', N'7', N'8', N'4', N'2', N'2017-04-30 17:14:52.000', N'::1', N'Áî®Êà∑testÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'55', N'7', N'8', N'4', N'2', N'2017-04-30 17:14:52.000', N'::1', N'”√ªßtestµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'56', N'7', N'8', N'4', N'1', N'2017-04-30 17:15:10.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'56', N'7', N'8', N'4', N'1', N'2017-04-30 17:15:10.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'57', N'7', N'8', N'4', N'1', N'2017-04-30 17:15:26.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'57', N'7', N'8', N'4', N'1', N'2017-04-30 17:15:26.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'58', N'7', N'8', N'4', N'1', N'2017-05-01 10:48:21.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'58', N'7', N'8', N'4', N'1', N'2017-05-01 10:48:21.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'59', N'7', N'8', N'4', N'1', N'2017-05-01 11:59:30.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'59', N'7', N'8', N'4', N'1', N'2017-05-01 11:59:30.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'60', N'7', N'8', N'4', N'1', N'2017-05-02 20:01:24.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'60', N'7', N'8', N'4', N'1', N'2017-05-02 20:01:24.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'61', N'7', N'8', N'4', N'1', N'2017-05-03 20:17:06.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'61', N'7', N'8', N'4', N'1', N'2017-05-03 20:17:06.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'62', N'7', N'8', N'4', N'1', N'2017-05-04 20:04:45.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'62', N'7', N'8', N'4', N'1', N'2017-05-04 20:04:45.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'63', N'7', N'8', N'4', N'1', N'2017-05-05 19:51:03.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'63', N'7', N'8', N'4', N'1', N'2017-05-05 19:51:03.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'64', N'7', N'8', N'4', N'1', N'2017-05-06 21:21:14.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'64', N'7', N'8', N'4', N'1', N'2017-05-06 21:21:14.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'65', N'7', N'8', N'4', N'1', N'2017-05-07 09:23:54.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'65', N'7', N'8', N'4', N'1', N'2017-05-07 09:23:54.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'66', N'7', N'8', N'4', N'1', N'2017-05-08 20:47:52.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'66', N'7', N'8', N'4', N'1', N'2017-05-08 20:47:52.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'67', N'7', N'8', N'4', N'1', N'2017-05-13 23:41:35.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'67', N'7', N'8', N'4', N'1', N'2017-05-13 23:41:35.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'68', N'7', N'8', N'4', N'1', N'2017-05-16 07:47:07.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'68', N'7', N'8', N'4', N'1', N'2017-05-16 07:47:07.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'69', N'7', N'8', N'4', N'1', N'2017-05-17 07:16:06.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'69', N'7', N'8', N'4', N'1', N'2017-05-17 07:16:06.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'70', N'7', N'8', N'4', N'1', N'2017-05-17 07:47:13.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'70', N'7', N'8', N'4', N'1', N'2017-05-17 07:47:13.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'71', N'7', N'8', N'4', N'1', N'2017-05-17 12:07:31.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'71', N'7', N'8', N'4', N'1', N'2017-05-17 12:07:31.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'72', N'7', N'8', N'4', N'1', N'2017-05-18 07:25:09.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'72', N'7', N'8', N'4', N'1', N'2017-05-18 07:25:09.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'73', N'7', N'8', N'4', N'1', N'2017-05-19 07:29:03.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'73', N'7', N'8', N'4', N'1', N'2017-05-19 07:29:03.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'74', N'7', N'8', N'4', N'1', N'2017-05-19 07:50:54.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'74', N'7', N'8', N'4', N'1', N'2017-05-19 07:50:54.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'75', N'7', N'8', N'4', N'1', N'2017-05-20 07:42:50.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'75', N'7', N'8', N'4', N'1', N'2017-05-20 07:42:50.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'76', N'7', N'8', N'4', N'1', N'2017-05-22 07:46:01.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'76', N'7', N'8', N'4', N'1', N'2017-05-22 07:46:01.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'77', N'7', N'8', N'4', N'1', N'2017-05-22 12:06:04.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'77', N'7', N'8', N'4', N'1', N'2017-05-22 12:06:04.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'78', N'7', N'8', N'4', N'1', N'2017-05-22 12:12:32.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'78', N'7', N'8', N'4', N'1', N'2017-05-22 12:12:32.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'79', N'7', N'8', N'4', N'1', N'2017-05-22 12:13:02.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'79', N'7', N'8', N'4', N'1', N'2017-05-22 12:13:02.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'80', N'7', N'8', N'4', N'1', N'2017-05-22 12:14:06.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'80', N'7', N'8', N'4', N'1', N'2017-05-22 12:14:06.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'81', N'7', N'8', N'4', N'1', N'2017-05-22 12:15:46.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'81', N'7', N'8', N'4', N'1', N'2017-05-22 12:15:46.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'82', N'7', N'8', N'4', N'1', N'2017-05-22 12:17:11.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'82', N'7', N'8', N'4', N'1', N'2017-05-22 12:17:11.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'83', N'7', N'8', N'4', N'1', N'2017-05-22 12:18:03.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'83', N'7', N'8', N'4', N'1', N'2017-05-22 12:18:03.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'84', N'7', N'8', N'4', N'1', N'2017-05-23 07:45:06.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'84', N'7', N'8', N'4', N'1', N'2017-05-23 07:45:06.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'85', N'7', N'8', N'4', N'1', N'2017-05-24 07:40:48.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'85', N'7', N'8', N'4', N'1', N'2017-05-24 07:40:48.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'86', N'7', N'8', N'4', N'1', N'2017-05-24 07:41:22.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'86', N'7', N'8', N'4', N'1', N'2017-05-24 07:41:22.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'87', N'7', N'8', N'4', null, N'2017-05-26 07:32:22.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÂ§±Ë¥•ÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'87', N'7', N'8', N'4', null, N'2017-05-26 07:32:22.000', N'::1', N'”√ªßadminµ«¬º ß∞‹£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'88', N'7', N'8', N'4', N'1', N'2017-05-26 07:32:26.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'88', N'7', N'8', N'4', N'1', N'2017-05-26 07:32:26.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'89', N'7', N'8', N'4', N'1', N'2017-05-26 07:36:47.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'89', N'7', N'8', N'4', N'1', N'2017-05-26 07:36:47.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'90', N'7', N'8', N'4', N'1', N'2017-05-26 07:37:15.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'90', N'7', N'8', N'4', N'1', N'2017-05-26 07:37:15.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'91', N'7', N'8', N'4', N'1', N'2017-05-27 20:14:54.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'91', N'7', N'8', N'4', N'1', N'2017-05-27 20:14:54.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'92', N'7', N'8', N'4', N'1', N'2017-05-27 20:15:22.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'92', N'7', N'8', N'4', N'1', N'2017-05-27 20:15:22.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'93', N'7', N'8', N'4', N'1', N'2017-05-27 20:33:46.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'93', N'7', N'8', N'4', N'1', N'2017-05-27 20:33:46.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'94', N'7', N'8', N'4', N'1', N'2017-05-27 20:37:20.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'94', N'7', N'8', N'4', N'1', N'2017-05-27 20:37:20.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'95', N'7', N'8', N'4', N'1', N'2017-05-27 22:09:13.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'95', N'7', N'8', N'4', N'1', N'2017-05-27 22:09:13.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'96', N'7', N'8', N'4', N'1', N'2017-05-28 07:32:06.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'96', N'7', N'8', N'4', N'1', N'2017-05-28 07:32:06.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'97', N'7', N'8', N'4', null, N'2017-05-28 08:19:58.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÂ§±Ë¥•ÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'97', N'7', N'8', N'4', null, N'2017-05-28 08:19:58.000', N'::1', N'”√ªßadminµ«¬º ß∞‹£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'98', N'7', N'8', N'4', null, N'2017-05-28 08:20:05.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÂ§±Ë¥•ÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'98', N'7', N'8', N'4', null, N'2017-05-28 08:20:05.000', N'::1', N'”√ªßadminµ«¬º ß∞‹£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'99', N'7', N'8', N'4', N'1', N'2017-05-28 08:20:09.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'99', N'7', N'8', N'4', N'1', N'2017-05-28 08:20:09.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'100', N'7', N'8', N'4', null, N'2017-05-28 08:22:16.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÂ§±Ë¥•ÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'100', N'7', N'8', N'4', null, N'2017-05-28 08:22:16.000', N'::1', N'”√ªßadminµ«¬º ß∞‹£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'101', N'7', N'8', N'4', N'1', N'2017-05-28 08:22:20.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'101', N'7', N'8', N'4', N'1', N'2017-05-28 08:22:20.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'102', N'7', N'8', N'4', N'1', N'2017-05-28 08:22:24.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'102', N'7', N'8', N'4', N'1', N'2017-05-28 08:22:24.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'103', N'7', N'8', N'4', N'1', N'2017-05-28 08:42:11.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'103', N'7', N'8', N'4', N'1', N'2017-05-28 08:42:11.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'104', N'7', N'8', N'4', N'1', N'2017-07-03 07:25:08.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'104', N'7', N'8', N'4', N'1', N'2017-07-03 07:25:08.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
-INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'105', N'7', N'8', N'4', N'1', N'2017-07-04 06:44:22.000', N'::1', N'Áî®Êà∑adminÁôªÂΩïÊàêÂäüÔºÅ', N'', N'0', N'')
+INSERT INTO [dbo].[AppLog] ([ID], [Type], [Source], [Level], [UserID], [AddTime], [IP], [Title], [Content], [Status], [Comment]) VALUES (N'105', N'7', N'8', N'4', N'1', N'2017-07-04 06:44:22.000', N'::1', N'”√ªßadminµ«¬º≥…π¶£°', N'', N'0', N'')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppLog] OFF
@@ -726,115 +726,115 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppMenu] ON
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'1', N'Á≥ªÁªüÁÆ°ÁêÜ', N'001', null, null, null, N'28', N'Computer', N'1', N'10', null, null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'1', N'œµÕ≥π‹¿Ì', N'001', null, null, null, N'28', N'Computer', N'1', N'10', null, null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'2', N'ÊùÉÈôêÁÆ°ÁêÜ', N'001001', N'1', null, null, N'28', N'Userkey', N'1', N'30', null, null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'2', N'»®œﬁπ‹¿Ì', N'001001', N'1', null, null, N'28', N'Userkey', N'1', N'30', null, null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'3', N'ËèúÂçïÁÆ°ÁêÜ', N'001001001', N'2', N'26', N'App.app.menu.List', N'28', N'Applicationsidetree', N'1', N'20', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'3', N'≤Àµ•π‹¿Ì', N'001001001', N'2', N'26', N'App.app.menu.List', N'28', N'Applicationsidetree', N'1', N'20', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4', N'Âú®Á∫øÂäûÂÖ¨', N'002', null, null, null, N'28', N'Printer', N'1', N'20', null, null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4', N'‘⁄œﬂ∞Ïπ´', N'002', null, null, null, N'28', N'Printer', N'1', N'20', null, null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'5', N'ÁªÑÁªáÊú∫ÊûÑ', N'001002', N'1', N'26', N'App.app.dept.List', N'28', N'Building', N'1', N'10', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'5', N'◊È÷Øª˙ππ', N'001002', N'1', N'26', N'App.app.dept.List', N'28', N'Building', N'1', N'10', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'6', N'Áî®Êà∑ÁÆ°ÁêÜ', N'001003', N'1', N'26', N'App.app.user.List', N'28', N'User', N'1', N'20', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'6', N'”√ªßπ‹¿Ì', N'001003', N'1', N'26', N'App.app.user.List', N'28', N'User', N'1', N'20', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'7', N'ËßíËâ≤ÁÆ°ÁêÜ', N'001001002', N'2', N'26', N'App.app.role.List', N'28', N'Group', N'1', N'10', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'7', N'Ω«…´π‹¿Ì', N'001001002', N'2', N'26', N'App.app.role.List', N'28', N'Group', N'1', N'10', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'8', N'Êï∞ÊçÆÂ≠óÂÖ∏', N'001004', N'1', N'26', N'App.app.dic.List', N'28', N'Book', N'1', N'40', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'8', N' ˝æ›◊÷µ‰', N'001004', N'1', N'26', N'App.app.dic.List', N'28', N'Book', N'1', N'40', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'9', N'Á≥ªÁªüÈÖçÁΩÆ', N'001005', N'1', N'26', N'App.app.config.List', N'28', N'Wrench', N'1', N'50', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'9', N'œµÕ≥≈‰÷√', N'001005', N'1', N'26', N'App.app.config.List', N'28', N'Wrench', N'1', N'50', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'10', N'Á≥ªÁªüÊó•Âøó', N'001006', N'1', N'26', N'App.app.logs.List', N'28', N'Page', N'1', N'60', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'10', N'œµÕ≥»’÷æ', N'001006', N'1', N'26', N'App.app.logs.List', N'28', N'Page', N'1', N'60', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4006', N'Êï∞ÊçÆÂ∫ìÂ§á‰ªΩ', N'001007', N'1', N'26', N'App.app.databaseBackup.List', N'28', N'Database', N'1', N'70', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4006', N' ˝æ›ø‚±∏∑›', N'001007', N'1', N'26', N'App.app.databaseBackup.List', N'28', N'Database', N'1', N'70', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4010', N'ÂÆûÈ™å‰∏≠ÂøÉ', N'003', null, null, N'', N'28', N'Color', N'1', N'200', N'', null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4010', N' µ—È÷––ƒ', N'003', null, null, N'', N'28', N'Color', N'1', N'200', N'', null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4011', N'ÊâìÂºÄÊñπÂºè', N'003001', N'4010', null, null, N'28', N'Worldlink', N'1', N'0', null, null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4011', N'¥Úø™∑Ω Ω', N'003001', N'4010', null, null, N'28', N'Worldlink', N'1', N'0', null, null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4012', N'ÈÄâÈ°πÂç°ÊâìÂºÄ(NoIframe)', N'003001001', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'1', null, N'30')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4012', N'—°œÓø®¥Úø™(NoIframe)', N'003001001', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'1', null, N'30')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4013', N'ÈÄâÈ°πÂç°ÊâìÂºÄ(Iframe)', N'003001002', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'2', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4013', N'—°œÓø®¥Úø™(Iframe)', N'003001002', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'2', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4014', N'ÂØπËØùÊ°ÜÊâìÂºÄ(Dialog)', N'003001003', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'3', null, N'32')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4014', N'∂‘ª∞øÚ¥Úø™(Dialog)', N'003001003', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'3', null, N'32')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4015', N'È°∂Â±ÇÁ™óÂè£ÊâìÂºÄ(Top)', N'003001004', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'4', null, N'33')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4015', N'∂•≤„¥∞ø⁄¥Úø™(Top)', N'003001004', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'4', null, N'33')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4016', N'Êñ∞Á™óÂè£ÊâìÂºÄ(Blank)', N'003001005', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'5', null, N'34')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4016', N'–¬¥∞ø⁄¥Úø™(Blank)', N'003001005', N'4011', N'26', N'App.app.user.List', N'28', N'User', N'1', N'5', null, N'34')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4017', N'Â∑•‰ΩúÊµÅ', N'001008', N'1', null, null, N'28', N'Chartorganisation', N'1', N'35', null, null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4017', N'π§◊˜¡˜', N'001008', N'1', null, null, N'28', N'Chartorganisation', N'1', N'35', null, null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4018', N'Â∑•‰ΩúÊµÅËÆæËÆ°', N'001008001', N'4017', N'26', N'App.app.workflowDesign.List', N'28', N'Chartorganisationadd', N'1', N'10', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4018', N'π§◊˜¡˜…Ëº∆', N'001008001', N'4017', N'26', N'App.app.workflowDesign.List', N'28', N'Chartorganisationadd', N'1', N'10', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4019', N'Ê∂àÊÅØ‰∏≠ÂøÉ', N'002001', N'4', null, null, N'28', N'Email', N'1', N'10', null, null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4019', N'œ˚œ¢÷––ƒ', N'002001', N'4', null, null, N'28', N'Email', N'1', N'10', null, null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4020', N'ÂèëÈÄÅÊ∂àÊÅØ', N'002001001', N'4019', N'26', N'App.work.message.List', N'28', N'Emailadd', N'1', N'10', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4020', N'∑¢ÀÕœ˚œ¢', N'002001001', N'4019', N'26', N'App.work.message.List', N'28', N'Emailadd', N'1', N'10', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4021', N'Êé•Êî∂Ê∂àÊÅØ', N'002001002', N'4019', N'26', N'App.work.messageReceive.List', N'28', N'Emailtransfer', N'1', N'20', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4021', N'Ω” ’œ˚œ¢', N'002001002', N'4019', N'26', N'App.work.messageReceive.List', N'28', N'Emailtransfer', N'1', N'20', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4022', N'ÊâìÂºÄÁôæÂ∫¶', N'003001006', N'4011', N'27', N'http://www.baidu.com', N'28', N'User', N'1', N'60', null, N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4022', N'¥Úø™∞Ÿ∂»', N'003001006', N'4011', N'27', N'http://www.baidu.com', N'28', N'User', N'1', N'60', null, N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4023', N'Ëá™ÂÆö‰πâÊéß‰ª∂', N'003002', N'4010', null, N'', N'28', N'Star', N'1', N'20', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4023', N'◊‘∂®“Âøÿº˛', N'003002', N'4010', null, N'', N'28', N'Star', N'1', N'20', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4024', N'ÂÜíÊ≥°ÂºπÁ™ó', N'003002001', N'4023', N'26', N'App.app.test.NotifyTest', N'28', N'Applicationcascade', N'1', N'10', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4024', N'√∞≈›µØ¥∞', N'003002001', N'4023', N'26', N'App.app.test.NotifyTest', N'28', N'Applicationcascade', N'1', N'10', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4025', N'Êú∫ÊûÑ‰∏ãÊãâÈÄâÊã©', N'003002002', N'4023', N'26', N'App.app.test.DeptSelectTest', N'28', N'Awardstargold1', N'1', N'20', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4025', N'ª˙ππœ¬¿≠—°‘Ò', N'003002002', N'4023', N'26', N'App.app.test.DeptSelectTest', N'28', N'Awardstargold1', N'1', N'20', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4026', N'ËèúÂçï‰∏ãÊãâÈÄâÊã©', N'003002003', N'4023', N'26', N'App.app.test.MenuSelectTest', N'28', N'Awardstargold2', N'1', N'30', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4026', N'≤Àµ•œ¬¿≠—°‘Ò', N'003002003', N'4023', N'26', N'App.app.test.MenuSelectTest', N'28', N'Awardstargold2', N'1', N'30', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4027', N'ÊêúÁ¥¢Ë°®Âçï', N'003002004', N'4023', N'26', N'App.app.test.SearchFormTest', N'28', N'Awardstargold3', N'1', N'40', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4027', N'À—À˜±Ìµ•', N'003002004', N'4023', N'26', N'App.app.test.SearchFormTest', N'28', N'Awardstargold3', N'1', N'40', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4028', N'Áî®Êà∑ÈÄâÊã©', N'003002005', N'4023', N'26', N'App.app.test.UserSelectTest', N'28', N'Awardstarsilver1', N'1', N'50', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4028', N'”√ªß—°‘Ò', N'003002005', N'4023', N'26', N'App.app.test.UserSelectTest', N'28', N'Awardstarsilver1', N'1', N'50', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4029', N'Âú∞ÂõæÁªòÂà∂', N'003002006', N'4023', N'26', N'App.app.test.MapDrawTest', N'29', N'Mapedit', N'1', N'60', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4029', N'µÿÕºªÊ÷∆', N'003002006', N'4023', N'26', N'App.app.test.MapDrawTest', N'29', N'Mapedit', N'1', N'60', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4030', N'Âú∞ÂõæÂ±ïÁ§∫', N'003002007', N'4023', N'26', N'App.app.test.MapShowTest', N'28', N'Mapstart', N'1', N'70', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4030', N'µÿÕº’π æ', N'003002007', N'4023', N'26', N'App.app.test.MapShowTest', N'28', N'Mapstart', N'1', N'70', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4031', N'ÈôÑ‰ª∂‰∏ä‰º†', N'003002008', N'4023', N'26', N'App.app.test.FileUploadTest', N'28', N'Film', N'1', N'80', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4031', N'∏Ωº˛…œ¥´', N'003002008', N'4023', N'26', N'App.app.test.FileUploadTest', N'28', N'Film', N'1', N'80', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4033', N'ËØ∑ÂÅáÁÆ°ÁêÜ', N'002002', N'4', null, N'', N'28', N'Applicationedit', N'1', N'20', N'', null)
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4033', N'«ÎºŸπ‹¿Ì', N'002002', N'4', null, N'', N'28', N'Applicationedit', N'1', N'20', N'', null)
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4034', N'Âú®Á∫øËØ∑ÂÅá', N'002002001', N'4033', N'26', null, N'28', N'User', N'1', N'10', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4034', N'‘⁄œﬂ«ÎºŸ', N'002002001', N'4033', N'26', null, N'28', N'User', N'1', N'10', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4035', N'ËØ∑ÂÅáÂÆ°Êâπ', N'002002002', N'4033', N'26', null, N'28', N'User', N'1', N'20', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4035', N'«ÎºŸ…Û≈˙', N'002002002', N'4033', N'26', null, N'28', N'User', N'1', N'20', N'', N'31')
 GO
 GO
-INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4036', N'ËØ∑ÂÅáÊü•ËØ¢', N'002002003', N'4033', N'26', null, N'28', N'User', N'1', N'30', N'', N'31')
+INSERT INTO [dbo].[AppMenu] ([ID], [Name], [Code], [PID], [UrlType], [Url], [IconType], [Icon], [Status], [Sort], [Comment], [OpenType]) VALUES (N'4036', N'«ÎºŸ≤È—Ø', N'002002003', N'4033', N'26', null, N'28', N'User', N'1', N'30', N'', N'31')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppMenu] OFF
@@ -864,10 +864,10 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppRole] ON
 GO
-INSERT INTO [dbo].[AppRole] ([ID], [Name], [Status], [Code], [Sort], [Comment]) VALUES (N'5', N'Ë∂ÖÁ∫ßÁÆ°ÁêÜÂëò', N'1', N'SuperAdmin', N'1', null)
+INSERT INTO [dbo].[AppRole] ([ID], [Name], [Status], [Code], [Sort], [Comment]) VALUES (N'5', N'≥¨º∂π‹¿Ì‘±', N'1', N'SuperAdmin', N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppRole] ([ID], [Name], [Status], [Code], [Sort], [Comment]) VALUES (N'2006', N'ÊôÆÈÄöÁî®Êà∑', N'1', N'User', N'2', null)
+INSERT INTO [dbo].[AppRole] ([ID], [Name], [Status], [Code], [Sort], [Comment]) VALUES (N'2006', N'∆’Õ®”√ªß', N'1', N'User', N'2', null)
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppRole] OFF
@@ -1108,10 +1108,10 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[AppUser] ON
 GO
-INSERT INTO [dbo].[AppUser] ([ID], [Username], [Password], [Name], [Sex], [RoleID], [DeptID], [Status], [Duty], [Phone], [Email], [FaceUrl], [AddTime], [Sort], [Comment], [Birthday], [Address], [isAdmin], [UserID]) VALUES (N'1', N'admin', N'OhpHH5gn55nuplWK0h2esw==', N'ÁÆ°ÁêÜÂëò', N'11', N'5', N'3014', N'1', null, null, null, null, null, N'1', null, N'1990-01-01 00:00:00.000', null, N'1', null)
+INSERT INTO [dbo].[AppUser] ([ID], [Username], [Password], [Name], [Sex], [RoleID], [DeptID], [Status], [Duty], [Phone], [Email], [FaceUrl], [AddTime], [Sort], [Comment], [Birthday], [Address], [isAdmin], [UserID]) VALUES (N'1', N'admin', N'OhpHH5gn55nuplWK0h2esw==', N'π‹¿Ì‘±', N'11', N'5', N'3014', N'1', null, null, null, null, null, N'1', null, N'1990-01-01 00:00:00.000', null, N'1', null)
 GO
 GO
-INSERT INTO [dbo].[AppUser] ([ID], [Username], [Password], [Name], [Sex], [RoleID], [DeptID], [Status], [Duty], [Phone], [Email], [FaceUrl], [AddTime], [Sort], [Comment], [Birthday], [Address], [isAdmin], [UserID]) VALUES (N'2', N'test', N'OhpHH5gn55nuplWK0h2esw==', N'ÊµãËØï', N'12', N'2006', N'3014', N'1', null, null, null, null, N'2017-04-16 09:33:28.000', N'2', null, null, null, N'0', null)
+INSERT INTO [dbo].[AppUser] ([ID], [Username], [Password], [Name], [Sex], [RoleID], [DeptID], [Status], [Duty], [Phone], [Email], [FaceUrl], [AddTime], [Sort], [Comment], [Birthday], [Address], [isAdmin], [UserID]) VALUES (N'2', N'test', N'OhpHH5gn55nuplWK0h2esw==', N'≤‚ ‘', N'12', N'2006', N'3014', N'1', null, null, null, null, N'2017-04-16 09:33:28.000', N'2', null, null, null, N'0', null)
 GO
 GO
 SET IDENTITY_INSERT [dbo].[AppUser] OFF
@@ -1175,10 +1175,10 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[Message] ON
 GO
-INSERT INTO [dbo].[Message] ([ID], [Title], [Content], [AddTime], [SendTime], [Comment], [TypeID], [AddUserID], [Status]) VALUES (N'2', N'‰Ω†Â•ΩÔºåÁÆ°ÁêÜÂëò', N'ËøôÊòØÊµãËØïÂèëÁªôÁÆ°ÁêÜÂëòÁöÑÊ∂àÊÅØ„ÄÇ', N'2017-04-30 15:42:29.000', N'2017-04-30 15:42:31.000', N'', N'36', N'2', N'38')
+INSERT INTO [dbo].[Message] ([ID], [Title], [Content], [AddTime], [SendTime], [Comment], [TypeID], [AddUserID], [Status]) VALUES (N'2', N'ƒ„∫√£¨π‹¿Ì‘±', N'’‚ «≤‚ ‘∑¢∏¯π‹¿Ì‘±µƒœ˚œ¢°£', N'2017-04-30 15:42:29.000', N'2017-04-30 15:42:31.000', N'', N'36', N'2', N'38')
 GO
 GO
-INSERT INTO [dbo].[Message] ([ID], [Title], [Content], [AddTime], [SendTime], [Comment], [TypeID], [AddUserID], [Status]) VALUES (N'3', N'ËçâÁ®øÊ∂àÊÅØ', N'ÊµãËØïÁúã‰∏çÂà∞„ÄÇ„ÄÇ„ÄÇ', N'2017-04-30 16:00:45.000', null, N'', N'36', N'1', N'37')
+INSERT INTO [dbo].[Message] ([ID], [Title], [Content], [AddTime], [SendTime], [Comment], [TypeID], [AddUserID], [Status]) VALUES (N'3', N'≤›∏Âœ˚œ¢', N'≤‚ ‘ø¥≤ªµΩ°£°£°£', N'2017-04-30 16:00:45.000', null, N'', N'36', N'1', N'37')
 GO
 GO
 INSERT INTO [dbo].[Message] ([ID], [Title], [Content], [AddTime], [SendTime], [Comment], [TypeID], [AddUserID], [Status]) VALUES (N'4', N'11', N'111', N'2017-05-28 10:27:59.000', null, N'', N'36', N'1', N'37')
@@ -1248,7 +1248,7 @@ GO
 -- ----------------------------
 SET IDENTITY_INSERT [dbo].[Workflow] ON
 GO
-INSERT INTO [dbo].[Workflow] ([ID], [Name], [Version], [Data], [AddTime], [Comment], [AddUserID]) VALUES (N'1', N'ËØ∑ÈîÄÂÅáÊµÅÁ®ã', N'1', N'<mxGraphModel><root><Workflow label="MyWorkflow" description="" href="" id="0"><mxCell/></Workflow><Layer label="Default Layer" id="1"><mxCell parent="0"/></Layer><Symbol label="ÂºÄÂßã" description="" href="" id="2"><mxCell style="symbol;image=images/symbols/event.png" parent="1" vertex="1"><mxGeometry x="350" y="30" width="32" height="32" as="geometry"/></mxCell></Symbol><Task label="ÈÉ®Èó®È¢ÜÂØº" description="" href="" id="3"><mxCell parent="1" vertex="1"><mxGeometry x="330" y="130" width="72" height="32" as="geometry"/></mxCell></Task><Edge label="" description="" id="5"><mxCell parent="1" source="2" target="3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Shape label="Â§ß‰∫é3Â§©" description="" href="" id="6"><mxCell style="rhombus" vertex="1" parent="1"><mxGeometry x="320" y="200" width="90" height="40" as="geometry"/></mxCell></Shape><Task label="‰∏ªÁÆ°È¢ÜÂØº" description="" href="" id="7"><mxCell vertex="1" parent="1"><mxGeometry x="330" y="310" width="72" height="32" as="geometry"/></mxCell></Task><Symbol label="ÁªìÊùü" description="" href="" id="8"><mxCell style="symbol;image=images/symbols/event_end.png" vertex="1" parent="1"><mxGeometry x="350" y="380" width="32" height="32" as="geometry"/></mxCell></Symbol><Edge label="" description="" id="9"><mxCell edge="1" parent="1" source="3" target="6"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Edge label="ÊòØ" description="" id="10"><mxCell edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Edge label="" description="" id="11"><mxCell edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Edge label="Âê¶" description="" id="12"><mxCell edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"><mxPoint x="530" y="260" as="targetPoint"/><Array as="points"><mxPoint x="490" y="320"/></Array></mxGeometry></mxCell></Edge></root></mxGraphModel>', N'2017-04-27 21:56:27.000', N'ÊµãËØï', N'1')
+INSERT INTO [dbo].[Workflow] ([ID], [Name], [Version], [Data], [AddTime], [Comment], [AddUserID]) VALUES (N'1', N'«Îœ˙ºŸ¡˜≥Ã', N'1', N'<mxGraphModel><root><Workflow label="MyWorkflow" description="" href="" id="0"><mxCell/></Workflow><Layer label="Default Layer" id="1"><mxCell parent="0"/></Layer><Symbol label="ø™ º" description="" href="" id="2"><mxCell style="symbol;image=images/symbols/event.png" parent="1" vertex="1"><mxGeometry x="350" y="30" width="32" height="32" as="geometry"/></mxCell></Symbol><Task label="≤ø√≈¡Ïµº" description="" href="" id="3"><mxCell parent="1" vertex="1"><mxGeometry x="330" y="130" width="72" height="32" as="geometry"/></mxCell></Task><Edge label="" description="" id="5"><mxCell parent="1" source="2" target="3" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Shape label="¥Û”⁄3ÃÏ" description="" href="" id="6"><mxCell style="rhombus" vertex="1" parent="1"><mxGeometry x="320" y="200" width="90" height="40" as="geometry"/></mxCell></Shape><Task label="÷˜π‹¡Ïµº" description="" href="" id="7"><mxCell vertex="1" parent="1"><mxGeometry x="330" y="310" width="72" height="32" as="geometry"/></mxCell></Task><Symbol label="Ω· ¯" description="" href="" id="8"><mxCell style="symbol;image=images/symbols/event_end.png" vertex="1" parent="1"><mxGeometry x="350" y="380" width="32" height="32" as="geometry"/></mxCell></Symbol><Edge label="" description="" id="9"><mxCell edge="1" parent="1" source="3" target="6"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Edge label=" «" description="" id="10"><mxCell edge="1" parent="1" source="6" target="7"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Edge label="" description="" id="11"><mxCell edge="1" parent="1" source="7" target="8"><mxGeometry relative="1" as="geometry"/></mxCell></Edge><Edge label="∑Ò" description="" id="12"><mxCell edge="1" parent="1" source="6" target="8"><mxGeometry relative="1" as="geometry"><mxPoint x="530" y="260" as="targetPoint"/><Array as="points"><mxPoint x="490" y="320"/></Array></mxGeometry></mxCell></Edge></root></mxGraphModel>', N'2017-04-27 21:56:27.000', N'≤‚ ‘', N'1')
 GO
 GO
 SET IDENTITY_INSERT [dbo].[Workflow] OFF
