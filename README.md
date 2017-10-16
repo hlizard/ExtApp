@@ -10,9 +10,9 @@ ExtApp是一个基于三层架构，使用NHibernate、API Controller和ExtJs创
   - 自带6种皮肤。
   - 8种常用控件封装。
   - 地图绘制展示。
-  - 旧版本Demo：https://tengge1.github.io/ExtApp
+  - 旧版本Demo：https://tengge1.github.io/ext-app
   - 用户：管理员（admin、123）、一般用户（test、123）
-  - 最新版下载：https://github.com/tengge1/ExtApp/releases
+  - 最新版下载：https://github.com/tengge1/ext-app/releases
 
 ### 主要功能
 
@@ -31,25 +31,25 @@ ExtApp提供全面的政府级和企业级Web应用解决方案：
 
 ### 项目截图
 
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.PNG)
  
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%872.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%872.PNG)
  
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E5%9C%B0%E5%9B%BE%E5%B1%95%E7%A4%BA%E6%8E%A7%E4%BB%B6.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E5%9C%B0%E5%9B%BE%E5%B1%95%E7%A4%BA%E6%8E%A7%E4%BB%B6.PNG)
   
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E5%9C%B0%E5%9B%BE%E7%BB%98%E5%88%B6%E6%8E%A7%E4%BB%B6.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E5%9C%B0%E5%9B%BE%E7%BB%98%E5%88%B6%E6%8E%A7%E4%BB%B6.PNG)
    
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%AE%BE%E8%AE%A1.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%AE%BE%E8%AE%A1.PNG)
     
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E6%A1%8C%E9%9D%A21.png)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E6%A1%8C%E9%9D%A21.png)
      
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E6%A1%8C%E9%9D%A22.png)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E6%A1%8C%E9%9D%A22.png)
 
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E6%A1%8C%E9%9D%A23.png)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E6%A1%8C%E9%9D%A23.png)
 
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E7%94%A8%E6%88%B7%E9%80%89%E6%8B%A9%E6%8E%A7%E4%BB%B6.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E7%94%A8%E6%88%B7%E9%80%89%E6%8B%A9%E6%8E%A7%E4%BB%B6.PNG)
 
-![image](https://github.com/tengge1/ExtApp/blob/master/%E5%9B%BE%E7%89%87/%E9%99%84%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A7%E4%BB%B6.PNG)
+![image](https://github.com/tengge1/ext-app/blob/master/%E5%9B%BE%E7%89%87/%E9%99%84%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%8E%A7%E4%BB%B6.PNG)
   
 
 
